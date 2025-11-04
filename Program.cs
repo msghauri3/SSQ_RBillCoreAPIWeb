@@ -33,15 +33,22 @@ var app = builder.Build();
 // ✅ CORS use
 app.UseCors("AllowLocalhost");
 
+//// Configure the HTTP request pipeline.
+//if (app.Environment.IsDevelopment())
+//{
+//    app.UseSwagger();
+//    app.UseSwaggerUI(options =>
+//    {
+//        options.SwaggerEndpoint("/swagger/v1/swagger.json", "SSQ_RBillCoreAPIWeb v1");
+//        options.RoutePrefix = string.Empty; // 👈 ye line add karo
+//    });
+//}
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI(options =>
-    {
-        options.SwaggerEndpoint("/swagger/v1/swagger.json", "SSQ_RBillCoreAPIWeb v1");
-        options.RoutePrefix = string.Empty; // 👈 ye line add karo
-    });
+    app.UseSwaggerUI();
 }
 
 
