@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSQ_RBillCoreAPIWeb", "SSQ_RBillCoreAPIWeb.csproj", "{A762D288-B25F-4E66-A9CC-5A01F5CA98FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A762D288-B25F-4E66-A9CC-5A01F5CA98FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A762D288-B25F-4E66-A9CC-5A01F5CA98FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A762D288-B25F-4E66-A9CC-5A01F5CA98FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A762D288-B25F-4E66-A9CC-5A01F5CA98FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {556F6310-8DA9-4B51-AF23-1BB6B199EDDA}
+	EndGlobalSection
+EndGlobal

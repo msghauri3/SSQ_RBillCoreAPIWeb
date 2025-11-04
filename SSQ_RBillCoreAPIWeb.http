@@ -1,0 +1,6 @@
+@SSQ_RBillCoreAPIWeb_HostAddress = http://localhost:5167
+
+GET {{SSQ_RBillCoreAPIWeb_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
